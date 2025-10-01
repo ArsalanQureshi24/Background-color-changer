@@ -1,0 +1,75 @@
+.App{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    
+}
+.btn-container{
+    display: flex;
+    margin-top: 30px;
+    background-color:lavenderblush;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+    border: .5px solid black;
+}
+.color-transition:hover {
+  transition: background-color 0.5s ease;
+}
+
+button:hover{
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+/* Ensuring custom button classes take precedence */
+.reset {
+    background-color: white !important;
+    color: white !important;
+}
+/* App.css */
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+}
+/* .blue {
+    background-color: blue !important;
+    color: white !important;
+}
+.green {
+    background-color: green !important;
+    color: white !important;
+}
+.black {
+    background-color: #000 !important;
+    color: white !important;
+}
+
+.orange {
+    background-color: rgb(247, 118, 13) !important;
+    color: black !important;
+}
+
+.red{
+    background-color: rgb(236, 9, 9) !important;
+    color: rgb(253, 251, 251) !important;
+}
+
+.yellow {
+    background-color: yellow !important;
+    color: black !important;
+}
+
+.reset {
+    background-color: rgb(255, 254, 253) !important;
+    color: rgb(14, 13, 13) !important;
+} */
